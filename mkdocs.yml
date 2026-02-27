@@ -1,3 +1,7 @@
+site_url: https://player9753193.github.io/No-Man-s-Sky-Wiki/
+use_directory_urls: true
+site_dir: site
+
 site_name: No Man’s Sky Wiki
 site_description: 工程化攻略+百科混合 Wiki（静态站）
 theme:
