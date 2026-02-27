@@ -1,0 +1,45 @@
+site_name: No Man’s Sky Wiki
+site_description: 工程化攻略+百科混合 Wiki（静态站）
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - toc.follow
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+
+plugins:
+  - search
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - footnotes
+  - tables
+  - def_list
+  - pymdownx.details
+  - pymdownx.superfences
+
+nav:
+  - 门户: Home.md
+  - 分类: Categories.md
+  - 索引: Index.md
+  - 术语: Glossary.md
+  - Category:
+      - 资源: Category/Resources.md
+      - 系统: Category/Systems.md
+      - Playbooks: Category/Playbooks.md
+  - 系统:
+      - 精炼: Systems/Refining.md
+      - 经济: Systems/Economy.md
+  - 资源:
+      - 氧气: Resources/Oxygen.md
+      - 碳: Resources/Carbon.md
+      - 浓缩碳: Resources/CondensedCarbon.md
+  - Playbooks:
+      - 跳不动应急: Playbooks/LockedInSystem_NoWarp.md
